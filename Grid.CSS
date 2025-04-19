@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #4A90E2;
+  background-color: #e24a4a;
   color: white;
   padding: 2rem;
   text-align: center;
@@ -43,7 +43,7 @@ section {
 
 h2 {
   margin-bottom: 1rem;
-  color: #4A90E2;
+  color: #e24a4a;
 }
 .red-social {
   display: flex;
@@ -62,7 +62,7 @@ h2 {
 .proyecto {
   background-color: white;
   padding: 1rem;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -83,6 +83,7 @@ input, textarea {
 footer {
   text-align: center;
   padding: 2rem;
-  background-color: #4A90E2;
+  background-color: #e24a4a;
   color: #ffffff;
 }
+
