@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #fdf0f0;
   color: #333;
 }
 
@@ -18,27 +18,51 @@ header {
 }
 
 nav {
-  background-color: #333;
   display: flex;
-  justify-content: center;
-  gap: 2rem;
-  padding: 1rem 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
 }
 
 nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.1rem;
 }
+
+.nav-izq, .nav-centro, .nav-der {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-izq {
+  text-align: left;
+}
+
+.nav-der {
+  text-align: right;
+}
+
 
 nav a:hover {
   text-decoration: underline;
 }
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
 
 section {
   padding: 3rem 2rem;
   max-width: 900px;
   margin: auto;
+}
+.sobre {
+  text-align: left;
 }
 
 h2 {
