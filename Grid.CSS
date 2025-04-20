@@ -33,15 +33,16 @@ nav a {
 }
 
 .nav-izq, .nav-centro, .nav-der {
-  flex: 1;
   text-align: center;
 }
 
-.nav-izq {
+.inicio {
+  margin-left: 150px;
   text-align: left;
 }
 
 .nav-der {
+  margin-right: 150px;
   text-align: right;
 }
 
@@ -57,13 +58,27 @@ nav a:hover {
 
 
 section {
+
   padding: 3rem 2rem;
   max-width: 900px;
   margin: auto;
 }
 .sobre {
-  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+  grid-template-rows: auto;
+  gap: 1rem;
 }
+
+.sobre_h1 {
+  grid-column: 1 / 5; /* ocupa toda la fila */
+}
+
+.sobre_p {
+  grid-column: 1 / 3; /* ocupa solo la mitad (2 de 4 columnas) */
+}
+
+
 
 h2 {
   margin-bottom: 1rem;
@@ -101,8 +116,6 @@ input, textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-
-
 
 footer {
   text-align: center;
